@@ -3,6 +3,7 @@ pub mod logic {
         pub fn check_prime(num: u32) {
             let mut is_prime: bool = true;
             for i in 2..num {
+                println!("{}",i);
                 if num % i == 0 {
                     println!("Number is not a prime number");
                     is_prime = false;

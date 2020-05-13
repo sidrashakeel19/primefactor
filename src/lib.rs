@@ -17,16 +17,20 @@ pub mod logic {
 
     pub mod factors {
         pub fn check_factors(num: u32) {
+            let mut is_factor: bool = false;      
             if num % 3 == 0 {
-                println!("Men inko Rulaonga")
+                println!("Men inko Rulaonga");
+                is_factor = true;
             }
             if num % 5 == 0 {
-                println!("Mujhe Kion Nikala")
+                println!("Mujhe Kion Nikala");
+                is_factor = true;
             }
             if num % 7 == 0 {
-                println!("Barish hoti he toh Paani ata he")
+                println!("Barish hoti he toh Paani ata he");
+                is_factor = true;
             }
-            else {
+            if is_factor == false {
                 println!("{}",num);
             }
         }

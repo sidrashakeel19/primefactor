@@ -1,6 +1,6 @@
 [package]
 name = "primefactor"
-version = "0.1.2
+version = "0.1.2"
 authors = ["sidrashakeel19 <sidrashakeel19@hotmail.com>"]
 edition = "2018"
 description = "Library for finding whether a number is prime or not and also determine its factors"
